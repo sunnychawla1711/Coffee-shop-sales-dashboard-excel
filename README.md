@@ -1,50 +1,29 @@
-# ☕ Coffee Shop Sales Dashboard using Microsoft Excel
+# ☕ Coffee Shop Sales Dashboard
 
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power%20Query-00B050?style=for-the-badge)
-![Power Pivot](https://img.shields.io/badge/Power%20Pivot-0078D4?style=for-the-badge)
-![Dashboard](https://img.shields.io/badge/Dashboard-Interactive-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+## 📌 Project Overview
 
----
+The **Coffee Shop Sales Dashboard** is an interactive business intelligence project developed in **Microsoft Excel** to analyze retail sales data and generate actionable business insights.
 
-# 📌 Project Overview
-
-The **Coffee Shop Sales Dashboard** is an interactive Microsoft Excel project developed to analyze retail sales data and generate actionable business insights.
-
-This dashboard transforms raw transactional data into meaningful visualizations using **Power Query**, **Power Pivot**, **Pivot Tables**, **Pivot Charts**, **Slicers**, and **KPI Cards**, enabling stakeholders to make data-driven business decisions.
+This dashboard uses **Power Query, Power Pivot, Pivot Tables, Pivot Charts, KPI Cards, and Slicers** to transform raw retail sales data into meaningful business insights.
 
 ---
 
 # 🎯 Business Objective
 
-The primary objective of this project is to answer key business questions such as:
+This dashboard answers key business questions:
 
 - Which store generates the highest revenue?
 - Which products contribute the most sales?
 - What are the busiest business hours?
 - Which weekday attracts the highest customer footfall?
-- Which product categories perform the best?
 - What is the average customer bill?
-- What is the average number of products ordered per customer?
+- Which products and categories perform the best?
 
 ---
 
 # 🖼 Dashboard Preview
 
-> **Add your dashboard screenshot here**
-
-Example:
-
-```
-Dashboard Screenshot.png
-```
-
-*(After uploading the image to GitHub, replace this section with the image.)*
-
-```markdown
-![Dashboard](Dashboard%20Screenshot.png)
-```
+![Coffee Shop Dashboard](Dashboard.png)
 
 ---
 
@@ -63,240 +42,160 @@ Dashboard Screenshot.png
 
 ---
 
+# 🔄 Project Workflow
+
+1. Collected raw sales data.
+2. Cleaned and transformed data using Power Query.
+3. Built the data model with Power Pivot.
+4. Created Pivot Tables and Pivot Charts.
+5. Designed an interactive dashboard with KPI Cards and Slicers.
+6. Generated business insights and recommendations.
+
+---
+
 # 📊 Dashboard KPIs
 
 | KPI | Value |
-|------|--------:|
-| 💰 Total Sales | **$698,812.33** |
-| 👥 Total Footfall | **149,116** |
-| 🧾 Average Bill | **$4.69** |
-| 🛒 Average Orders | **1.44** |
+|------|-------:|
+| Total Sales | **$698,812.33** |
+| Total Footfall | **149,116** |
+| Average Bill | **$4.69** |
+| Average Orders | **1.44** |
 
 ---
 
 # 📈 Dashboard Features
 
-✅ Interactive Month Filter
-
-✅ Weekday Filter
-
-✅ Dynamic KPI Cards
-
-✅ Store-wise Sales Analysis
-
-✅ Product Category Distribution
-
-✅ Top Selling Products
-
-✅ Hourly Sales Trend
-
-✅ Weekday Sales Analysis
-
-✅ Product Size Distribution
+- Interactive Month Filter
+- Weekday Filter
+- KPI Cards
+- Store-wise Sales Analysis
+- Product Category Analysis
+- Product Size Distribution
+- Top Selling Products
+- Quantity Ordered by Hour
+- Orders by Weekday
 
 ---
 
 # 📌 Business Questions & Analysis
 
----
+## 1. How do sales vary by day of the week and hour of the day?
 
-## 1️⃣ How do sales vary by day of the week and hour of the day?
+**Analysis:** Sales peak between **8:00 AM and 10:00 AM**. Friday has the highest customer footfall, while Saturday has the lowest.
 
-### Analysis
-
-Sales are highest during the **morning hours (8 AM–10 AM)**, indicating that customers primarily visit the coffee shop before work.
-
-Among weekdays, **Friday records the highest customer footfall (21,701 orders)** while **Saturday records the lowest (20,510 orders).**
-
-### Business Insight
-
-Morning hours are the busiest period of the day.
-
-### Recommendation
-
-- Increase staff during morning hours.
-- Prepare inventory before 8 AM.
-- Launch weekend promotional offers.
+**Recommendation:** Increase staffing during morning hours and run weekend promotions.
 
 ---
 
-## 2️⃣ Are there any peak times for sales activity?
+## 2. Are there any peak times for sales activity?
 
-### Analysis
+**Analysis:** Peak sales occur from **8 AM to 10 AM**.
 
-Yes.
-
-The highest quantity of products is sold between **8 AM and 10 AM**.
-
-After 10 AM, demand gradually decreases throughout the day.
-
-### Business Insight
-
-Morning coffee purchases drive the majority of daily sales.
-
-### Recommendation
-
-- Maintain fast service during peak hours.
-- Keep high-demand beverages ready.
+**Recommendation:** Ensure sufficient inventory and faster service during peak hours.
 
 ---
 
-## 3️⃣ What is the total sales revenue?
+## 3. What is the total sales revenue for each month?
 
-### Analysis
+**Analysis:** The dashboard includes a Month Slicer for month-wise analysis.
 
-The dashboard reports a total revenue of
+**Overall Sales Revenue:** **$698,812.33**
 
-# **💰 $698,812.33**
-
-The Month Slicer allows users to analyze revenue for individual months.
-
-### Business Insight
-
-Monthly performance can be compared dynamically using dashboard filters.
+**Recommendation:** Monitor monthly trends for better planning.
 
 ---
 
-## 4️⃣ How do sales vary across store locations?
+## 4. How do sales vary across different store locations?
 
 | Store | Revenue |
 |--------|---------:|
 | Hell's Kitchen | **$236,511.17** |
-| Astoria | **$232,243.91** |
-| Lower Manhattan | **$230,057.25** |
+| Astoria | $232,243.91 |
+| Lower Manhattan | $230,057.25 |
 
-### Business Insight
-
-Hell's Kitchen generates the highest sales and customer footfall.
-
-### Recommendation
-
-Study the operational strategies of the Hell's Kitchen branch and implement similar practices in other locations.
+**Recommendation:** Apply successful strategies from Hell's Kitchen to other stores.
 
 ---
 
-## 5️⃣ What is the average bill per customer?
+## 5. What is the average bill per customer?
 
-### Analysis
+- Average Bill: **$4.69**
+- Average Orders: **1.44**
 
-Average Bill
-
-**$4.69**
-
-Average Orders
-
-**1.44**
-
-### Business Insight
-
-Customers generally purchase one to two items during each visit.
-
-### Recommendation
-
-Introduce combo offers and cross-selling opportunities to increase average order value.
+**Recommendation:** Introduce combo offers and cross-selling.
 
 ---
 
-## 6️⃣ Which products generate the highest revenue?
+## 6. Which products generate the highest revenue?
 
 | Product | Revenue |
 |----------|---------:|
-| ☕ Barista Espresso | **$91,406.20** |
-| 🍵 Brewed Chai Tea | **$77,081.95** |
-| 🍫 Hot Chocolate | **$72,416.00** |
-| ☕ Gourmet Brewed Coffee | **$70,034.60** |
-| 🍵 Brewed Black Tea | **$47,932.00** |
-
-### Business Insight
-
-Barista Espresso is the highest revenue-generating product.
-
-### Recommendation
-
-Maintain sufficient inventory of top-selling beverages and promote complementary bakery products.
+| Barista Espresso | **$91,406.20** |
+| Brewed Chai Tea | $77,081.95 |
+| Hot Chocolate | $72,416.00 |
+| Gourmet Brewed Coffee | $70,034.60 |
+| Brewed Black Tea | $47,932.00 |
 
 ---
 
-## 7️⃣ How do sales vary by product category?
+## 7. How do sales vary by product category?
 
-| Category | Contribution |
-|----------|-------------:|
-| Coffee | **39%** |
-| Tea | **28%** |
-| Bakery | **12%** |
-| Drinking Chocolate | **10%** |
-| Coffee Beans | **6%** |
-| Branded Products | **2%** |
-| Others | **3%** |
+| Category | Share |
+|----------|------:|
+| Coffee | 39% |
+| Tea | 28% |
+| Bakery | 12% |
+| Drinking Chocolate | 10% |
+| Coffee Beans | 6% |
+| Branded Products | 2% |
+| Others | 3% |
 
-### Business Insight
-
-Coffee and Tea together contribute approximately **67% of total revenue**, making beverages the primary source of income.
-
-### Recommendation
-
-Continue focusing on beverage quality while promoting lower-selling categories through marketing campaigns.
+**Recommendation:** Focus on beverages while promoting lower-selling categories.
 
 ---
 
-# 💡 Key Business Insights
+# 💡 Key Insights
 
-- 📌 Total Sales reached **$698,812.33**
-- 📌 Hell's Kitchen generated the highest revenue.
-- 📌 Friday recorded the highest customer footfall.
-- 📌 Morning (8–10 AM) is the busiest sales period.
-- 📌 Coffee contributes **39%** of total revenue.
-- 📌 Tea contributes **28%** of total revenue.
-- 📌 Barista Espresso is the highest-selling product.
-- 📌 Customers purchase an average of **1.44 products** per visit.
+- Total Sales: **$698,812.33**
+- Total Footfall: **149,116**
+- Hell's Kitchen is the top-performing store.
+- Friday is the busiest weekday.
+- Peak sales occur between **8–10 AM**.
+- Coffee contributes **39%** of revenue.
+- Tea contributes **28%** of revenue.
+- Barista Espresso is the top-selling product.
 
 ---
 
 # 📢 Business Recommendations
 
-✔ Increase staffing during morning rush hours.
-
-✔ Launch promotional campaigns during weekends.
-
-✔ Introduce combo offers to increase average order value.
-
-✔ Cross-sell bakery items with coffee.
-
-✔ Maintain inventory of top-selling beverages.
-
-✔ Improve marketing for lower-performing product categories.
-
----
-
-# 📂 Project Files
-
-```
-📁 Coffee-Shop-Sales-Dashboard
-│
-├── Coffee Shop Sales Dashboard.xlsx
-├── Coffee Shop Sales Analysis.pdf
-├── Dashboard Screenshot.png
-├── Dataset.xlsx
-└── README.md
-```
+- Increase staff during peak hours.
+- Maintain inventory for high-demand products.
+- Cross-sell bakery items with beverages.
+- Launch weekend promotions.
+- Monitor monthly trends.
 
 ---
 
 # 🚀 Skills Demonstrated
 
-- Data Cleaning
-- Data Transformation
-- Data Analysis
-- Dashboard Design
-- KPI Reporting
-- Business Intelligence
-- Data Visualization
-- Business Storytelling
 - Microsoft Excel
 - Power Query
 - Power Pivot
 - Pivot Tables
 - Pivot Charts
+- Dashboard Development
+- Data Cleaning
+- Data Transformation
+- Business Analysis
+- Data Visualization
+
+---
+
+# 📌 Conclusion
+
+This project demonstrates how Microsoft Excel can be used to build an interactive Business Intelligence dashboard from raw retail sales data. The dashboard helps identify trends, monitor KPIs, evaluate store performance, and support data-driven business decisions.
 
 ---
 
@@ -306,8 +205,11 @@ Continue focusing on beverage quality while promoting lower-selling categories t
 
 Aspiring Data Analyst
 
-📌 Microsoft Excel | SQL | Power BI | Python (Learning)
+### Connect with Me
+
+- GitHub: https://github.com/sunnychawla1711
+- LinkedIn: https://www.linkedin.com/in/sunny-chawla1711/
 
 ---
 
-## ⭐ If you found this project useful, feel free to give it a Star!
+⭐ If you found this project useful, consider giving it a Star.
